@@ -1,0 +1,68 @@
+<form action="">
+    <p>Name:</p>
+    <input type="text" name="Name" required minlength="6">
+    <p>Number:</p>
+    <input type="number" name="Number"><br>
+    <input type="submit">
+</form>
+
+<form>
+    <fieldset>
+        <legend>personal registration form</legend>
+<h1>Course resgistration form</h1>
+<label for="sal">salutation</label>
+<br>
+<select name="sal" id="sal">
+    
+    <option value="Mr.">Mr.</option>
+    <option value="Ms.">Ms.</option>
+    <option value="Dr.">Dr.</option>
+    <option value="None">None</option>
+
+</select>
+<br><br>
+<label>first name</label><input type="text" name="FN" placeholder="Ex:shreyas" size="15" minlength="5"><br>
+<label>Last name</label><input type="text" name="LN" placeholder="Ex:raj" size="15" minlength="2"><br>
+&nbsp;
+&nbsp;
+&nbsp;
+<label>Number</label><input type="number" name="ph no" placeholder="Ex:9869696" size="10" maxlength="10" pattern="[6-9]{0-9}{9}"> <br>
+<label>Email</label><input type="text" name="mail" placeholder="Ex:shreyas@gmail.com" size="15" minlength="7"><br>
+<label>Password</label><input type="number" name="pw" placeholder="Ex:797877" size="15" minlength="6"><br>
+<label>confirm password</label><input type="number" name="FN" placeholder="Ex:*****" size="15" minlength="6"><br>
+<label>DOB</label><input type="date" name="date"><br>
+<label>Gender</label><input type="radio"  name="gender" value="M">Male<label></label><input type="radio"  name="gender" value="F">Female
+<label></label><input type="radio"  name="gender" value="c">custom<br>
+<label >select country</label>
+<select name="country">
+<option value="India" >India</option>
+<option value="USA" >usa</option>
+<option value="canada" >canada</option>
+</select>
+<br>
+<label>Upload a picture</label><input type="file">
+<br>
+<label for="ad">Address</label>
+<br>
+<textarea name="ad" id="ad" cols="10" rows="10"></textarea>
+<input type="reset">
+
+</fieldset>
+<fieldset>
+    <label>course details</label>
+    <label>select course</label><br>
+    <select>
+        <option value="core java"></option> 
+    <option value="java full stack"></option>
+        <option value="python full stack"></option> 
+      </select>
+      <label>delievry mode</label>
+      <input type="checkbox" name="mod1" value="off">offline
+      <input type="checkbox" name="mod2" value="on">online<br>
+
+      <label>comment</label><br>
+      <input type="textarea">
+</fieldset>
+</form>
+
+
